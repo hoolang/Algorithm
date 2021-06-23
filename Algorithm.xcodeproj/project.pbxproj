@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DA080E6C2681C1A200D97CEB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA080E6B2681C1A200D97CEB /* main.swift */; };
+		DA080E742681C58D00D97CEB /* 206. 反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA080E732681C58D00D97CEB /* 206. 反转链表.swift */; };
+		DA09279E2682134300F41F17 /* 141.环形链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA09279D2682134300F41F17 /* 141.环形链表.swift */; };
+		DA0927A02682135900F41F17 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA09279F2682135900F41F17 /* ListNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		DA080E682681C1A200D97CEB /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA080E6B2681C1A200D97CEB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DA080E732681C58D00D97CEB /* 206. 反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206. 反转链表.swift"; sourceTree = "<group>"; };
+		DA09279D2682134300F41F17 /* 141.环形链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "141.环形链表.swift"; sourceTree = "<group>"; };
+		DA09279F2682135900F41F17 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,20 @@
 		DA080E6A2681C1A200D97CEB /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				DA080E722681C1C800D97CEB /* 链表反转 */,
 				DA080E6B2681C1A200D97CEB /* main.swift */,
 			);
 			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		DA080E722681C1C800D97CEB /* 链表反转 */ = {
+			isa = PBXGroup;
+			children = (
+				DA080E732681C58D00D97CEB /* 206. 反转链表.swift */,
+				DA09279D2682134300F41F17 /* 141.环形链表.swift */,
+				DA09279F2682135900F41F17 /* ListNode.swift */,
+			);
+			path = "链表反转";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +137,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA080E6C2681C1A200D97CEB /* main.swift in Sources */,
+				DA09279E2682134300F41F17 /* 141.环形链表.swift in Sources */,
+				DA080E742681C58D00D97CEB /* 206. 反转链表.swift in Sources */,
+				DA0927A02682135900F41F17 /* ListNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
